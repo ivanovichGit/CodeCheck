@@ -1,5 +1,5 @@
 import ply.yacc as yacc
-from cc_lexer import my_lexer, tokens  # Asegúrate de importar los tokens desde tu lexer
+from cc_lexer import my_lexer, tokens  
 
 # Precedencia (para operadores aritméticos)
 precedence = (

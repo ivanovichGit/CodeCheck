@@ -23,21 +23,21 @@ tokens = [
     'SCANF',
     'STRING',
     'GT', 'LT', 'GE', 'LE', 'EQ', 'NE',
-    'IF',      # <-- Agrega esto
-    'ELSE',    # <-- Agrega esto
-    'WHILE',   # <-- Agrega esto
+    'IF',      
+    'ELSE',    
+    'WHILE',   
 ]
 
-# Palabras reservadas (las identificamos en una función especial)
+# Palabras reservadas 
 reserved = {
     'int': 'INT',
     'float': 'FLOAT',
     'main': 'MAIN',
     'printf': 'PRINTF',
     'scanf': 'SCANF',
-    'if': 'IF',         # <-- Agrega esto
-    'else': 'ELSE',     # <-- Agrega esto
-    'while': 'WHILE',   # <-- Agrega esto
+    'if': 'IF',         
+    'else': 'ELSE',     
+    'while': 'WHILE',   
 }
 
 # Expresiones regulares simples para los tokens
