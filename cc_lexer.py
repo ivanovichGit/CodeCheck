@@ -77,7 +77,7 @@ def t_STRING(t):
 # Identificadores y palabras reservadas
 def t_ID(t):
     r'[a-zA-Z_][a-zA-Z0-9_]*'
-    t.type = reserved.get(t.value, 'ID')  # Verifica si es palabra reservada
+    t.type = reserved.get(t.value, 'ID')
     return t
 
 # Ignorar espacios y tabs

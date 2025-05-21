@@ -18,8 +18,8 @@ if __name__ == "__main__":
         } else {
             x = x + 1;
         }
-
-        while (x > 0) {
+        
+        while (x >= 0) {
             x = x - 1;
         }
     }
